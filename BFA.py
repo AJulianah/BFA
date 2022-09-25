@@ -1,9 +1,6 @@
 #!/usr/bin/python3
+import string
 
-password_found = False
+strings = string.ascii_letters
 
-def hash(data):
-    return md5(data)
-
-while not password_found:
-    pass
+print(strings)
