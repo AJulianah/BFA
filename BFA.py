@@ -3,4 +3,7 @@ import string
 
 strings = string.ascii_letters
 
-print(strings)
+password_found = False
+
+while not password_found:
+    pass
